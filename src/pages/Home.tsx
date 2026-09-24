@@ -397,14 +397,14 @@ export default function Home() {
                   >
                     {/* Vk1 — default (B&W) */}
                     <img
-                      src="/assets/images/Vk1.jpeg"
+                      src="/assets/images/vk2profile.jpeg"
                       alt="Vinay Kumar"
                       className="absolute inset-0 w-full h-full object-cover object-top transition-opacity duration-700 ease-in-out group-hover:opacity-0"
                       style={{ opacity: 1 }}
                     />
                     {/* Vk2 — hover reveal (color) */}
                     <img
-                      src="/assets/images/Vk2.jpeg"
+                      src="/assets/images/vkprofile.jpeg"
                       alt="Vinay Kumar — Color"
                       className="absolute inset-0 w-full h-full object-cover object-top transition-opacity duration-700 ease-in-out opacity-0 group-hover:opacity-100"
                     />
@@ -418,7 +418,7 @@ export default function Home() {
                   <div className="absolute top-1/2 -left-3 w-2 h-2 rounded-full bg-accent/60 group-hover:scale-150 transition-transform duration-700" />
                 </div>
 
-                <h2 className="text-2xl sm:text-3xl font-black mb-3 sm:mb-4 font-display text-center lg:text-left">The Developer</h2>
+                <h2 className="text-2xl sm:text-3xl font-black mb-3 sm:mb-4 font-display text-center lg:text-left">Full Stack Developer</h2>
                 <p className="text-muted-foreground leading-relaxed text-sm sm:text-base text-center lg:text-left">
                   I am a multi-disciplinary creator operating at the intersection of design, code, and visual effects. I don't just build websites; I engineer digital experiences that captivate and convert.
                 </p>

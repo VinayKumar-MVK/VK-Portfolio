@@ -15,6 +15,7 @@ import About from "@/pages/About";
 import Projects from "@/pages/Projects";
 import ProjectDetail from "@/pages/ProjectDetail";
 import Contact from "@/pages/Contact";
+import Resume from "@/pages/Resume";
 import Admin from "@/pages/Admin";
 import NotFound from "@/pages/not-found";
 
@@ -44,6 +45,7 @@ function Router() {
         <Route path="/projects/giet-smart" component={GietSmart} />
         <Route path="/projects/:slug" component={ProjectDetail} />
         <Route path="/contact" component={Contact} />
+        <Route path="/resume" component={Resume} />
         <Route path="/admin" component={Admin} />
         <Route component={NotFound} />
       </Switch>
